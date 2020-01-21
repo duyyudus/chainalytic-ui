@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from "react-dom";
+import ChainalyticUI from "./Chainalytic.js";
 
-const root = <h1>Chainalytic UI</h1>;
-
-ReactDOM.render(root, document.getElementById('root'));
+ReactDOM.render(<ChainalyticUI />, document.getElementById("root"));
